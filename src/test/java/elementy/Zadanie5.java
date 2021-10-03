@@ -12,7 +12,7 @@ public class Zadanie5 extends Utils {
         signInButton.click();
 
         WebElement emailInput = driver.findElement(By.className("account_input"));
-        emailInput.sendKeys("karol.smalz@asdasdasd.pl");
+        emailInput.sendKeys(getRandomEmail());
 
         WebElement createNewUserButton = driver.findElement(By.id("SubmitCreate"));
         createNewUserButton.click();

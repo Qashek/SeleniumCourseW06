@@ -12,7 +12,7 @@ public class Zadanie1 extends Utils {
         WebElement newsletterSignInput = driver.findElement(By.id("newsletter-input"));
 
         hotelLocationInput.sendKeys("Warsaw");
-        newsletterSignInput.sendKeys("karol.smalz@coderslab.pl");
+        newsletterSignInput.sendKeys(getRandomEmail());
 
     }
 }
