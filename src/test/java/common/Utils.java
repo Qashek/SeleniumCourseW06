@@ -1,4 +1,4 @@
-package konfiguracja;
+package common;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.util.concurrent.TimeUnit;
 
-public class Common {
+public class Utils {
     protected static WebDriver driver;
 
     public static void openChrome() {

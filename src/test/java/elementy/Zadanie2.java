@@ -1,10 +1,10 @@
 package elementy;
 
-import konfiguracja.Common;
+import common.Utils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
-public class Zadanie2 extends Common {
+public class Zadanie2 extends Utils {
     public static void main(String[] args) {
         openHotelApp();
         WebElement hotelLocationInput = driver.findElement(By.name("hotel_location"));

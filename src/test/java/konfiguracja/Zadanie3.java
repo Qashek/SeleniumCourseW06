@@ -1,6 +1,8 @@
 package konfiguracja;
 
-public class Zadanie3 extends Common {
+import common.Utils;
+
+public class Zadanie3 extends Utils {
     public static void main(String[] args) {
         openGoogleAndAccept();
         driver.get("https://coderslab.pl/pl");

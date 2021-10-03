@@ -1,6 +1,8 @@
 package konfiguracja;
 
-public class Zadanie2 extends Common {
+import common.Utils;
+
+public class Zadanie2 extends Utils {
     public static void main(String[] args) {
         openChrome();
         driver.get("https://coderslab.pl/pl");
