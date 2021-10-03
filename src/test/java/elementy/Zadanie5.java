@@ -40,6 +40,7 @@ public class Zadanie5 extends Utils {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+
         addressesButton.click();
     }
 }
