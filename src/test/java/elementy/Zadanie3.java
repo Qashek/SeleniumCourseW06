@@ -11,7 +11,7 @@ public class Zadanie3 extends Utils {
         signInButton.click();
 
         WebElement emailInput = driver.findElement(By.className("account_input"));
-        emailInput.sendKeys("karol.smalz@coderslab.pl");
+        emailInput.sendKeys(getRandomEmail());
 
         WebElement createNewUserButton = driver.findElement(By.id("SubmitCreate"));
         createNewUserButton.click();

@@ -26,7 +26,7 @@ public class Zadanie4 extends Utils {
 
         WebElement emailCreateInput = driver.findElement(By.xpath("//input[@id='email']"));
         emailCreateInput.clear();
-        emailCreateInput.sendKeys("karol.smalz@gmail.com");
+        emailCreateInput.sendKeys(getRandomEmail());
 
         WebElement passwordInput = driver.findElement(By.xpath("//input[@id='passwd']"));
         passwordInput.clear();

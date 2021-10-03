@@ -13,6 +13,6 @@ public class Zadanie2 extends Utils {
         WebElement subscribeButton = driver.findElement(By.name("submitNewsletter"));
 
         hotelLocationInput.sendKeys("Warsaw");
-        newsletterSignInput.sendKeys("karol.smalz@coderslab.pl");
+        newsletterSignInput.sendKeys(getRandomEmail());
     }
 }
